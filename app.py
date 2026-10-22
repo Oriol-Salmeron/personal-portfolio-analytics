@@ -465,6 +465,12 @@ def render_app() -> None:
             - **Savings Projection:** savings history and alternative projection assumptions.
             - **Tax & Reporting:** illustrative FIFO-matched sales, investment income and withholding.
 
+            **A few terms in plain English**
+            - **Core / Satellite:** core holdings are the main long-term allocation; satellite holdings are smaller, more tactical positions.
+            - **Smart DCA:** a simulation of how a monthly investment contribution could be split across holdings below their target weights.
+            - **Modeled upside:** a calculation against a fictional target price, not a prediction.
+            - **FIFO:** matches a sale against the oldest available recorded purchase first.
+
             **3. Test a budget scenario.** In the sidebar, open **Customize income & allocation**.
             The income and percentage splits feed the dashboard and simulations; the four percentages
             should add up to 100%.
