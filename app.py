@@ -451,7 +451,7 @@ def render_app() -> None:
         "**Demo mode:** the included figures are fictional examples, not live market data. "
         "You can explore the dashboard immediately without uploading anything."
     )
-    with st.expander("How to use this app — quick start", expanded=False):
+    with st.expander("How to use this app — quick start", expanded=True):
         st.markdown(
             """
             **1. Start with the sample data.** The app loads fictional holdings, cash accounts,
