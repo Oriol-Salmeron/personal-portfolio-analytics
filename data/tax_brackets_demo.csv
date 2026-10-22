@@ -1,0 +1,6 @@
+lower_bound_eur,upper_bound_eur,illustrative_rate_pct
+0,6000,19
+6000,50000,21
+50000,200000,23
+200000,300000,27
+300000,1000000000,30

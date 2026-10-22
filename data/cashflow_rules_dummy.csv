@@ -1,0 +1,2 @@
+monthly_gross_income_eur,withholding_rate,expense_share,savings_share,investment_share,opportunity_share,emergency_fund_min_eur,emergency_months,foreign_asset_monitor_threshold_eur,tactical_score_threshold,tactical_entry_buffer_pct,tactical_rebalance_share,tactical_radar_share,underweight_threshold,overweight_threshold
+2750.00,0.17,0.30,0.20,0.50,0.00,2000.00,3,50000.00,90,0.01,0.70,0.30,-0.02,0.03

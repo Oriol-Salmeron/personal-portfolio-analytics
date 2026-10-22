@@ -1,0 +1,10 @@
+asset,ticker,asset_class,strategy_role,quantity,purchase_price_eur,market_price_eur,daily_change_pct,risk_score,target_weight
+Northstar Dividend Basket,DMY001,Global Equity ETF,Core,40.0,22.00,25.35,0.0060,2.0,0.300
+Nimbus Enterprise Software,DMY002,Software,Satellite,7.5,75.00,91.50,0.0090,3.0,0.180
+Vertex Semiconductor Tools,DMY003,Semiconductors,Satellite,8.2,45.00,51.20,-0.0040,3.5,0.135
+Bluehaven Payment Systems,DMY004,Financial Services,Satellite,9.0,34.50,33.10,0.0020,2.5,0.060
+Cedarline Health Devices,DMY005,Healthcare,Satellite,16.0,28.00,30.50,0.0030,2.0,0.075
+Evergreen Consumer Products,DMY006,Consumer Staples,Satellite,8.0,53.50,58.00,0.0015,2.0,0.075
+Polaris Orbital Systems,DMY007,Aerospace,Satellite,14.0,19.00,16.40,-0.0120,5.0,0.045
+Summit Regional Banking,DMY008,Financial Services,Satellite,4.5,64.00,68.50,0.0040,3.0,0.070
+Meridian Clean Infrastructure,DMY009,Industrials,Satellite,12.0,31.00,34.20,0.0050,3.5,0.060

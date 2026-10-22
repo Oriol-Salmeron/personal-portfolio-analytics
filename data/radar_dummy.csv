@@ -1,0 +1,14 @@
+asset,ticker,asset_class,current_price_eur,high_52w_eur,target_price_eur,target_entry_price_eur,risk_score,opportunity_score,watch_reason
+Northstar Dividend Basket,DMY001,Global Equity ETF,25.35,27.00,28.50,24.50,2.0,72,Dividend-oriented core exposure
+Nimbus Enterprise Software,DMY002,Software,91.50,100.00,104.00,85.00,3.0,75,Recurring-revenue software theme
+Vertex Semiconductor Tools,DMY003,Semiconductors,51.20,60.00,66.00,48.00,3.5,88,Semiconductor supply-chain exposure
+Bluehaven Payment Systems,DMY004,Financial Services,33.10,36.00,37.00,32.00,2.5,61,Payments infrastructure theme
+Cedarline Health Devices,DMY005,Healthcare,30.50,34.00,38.00,29.00,2.0,83,Defensive healthcare exposure
+Evergreen Consumer Products,DMY006,Consumer Staples,58.00,61.00,63.00,56.00,2.0,65,Consumer staples watchlist
+Polaris Orbital Systems,DMY007,Aerospace,16.40,30.00,26.00,17.00,5.0,93,High-volatility aerospace theme
+Summit Regional Banking,DMY008,Financial Services,68.50,75.00,80.00,65.00,3.0,78,Regional banking exposure
+Meridian Clean Infrastructure,DMY009,Industrials,34.20,38.00,40.00,32.00,3.5,69,Infrastructure investment theme
+Quantum Water Materials,DMY010,Materials,21.50,31.00,35.00,19.00,5.0,88,Speculative materials research candidate
+Lumen Grid Storage,DMY011,Energy Storage,38.80,50.00,57.00,40.00,4.0,96,Grid-scale storage watchlist candidate
+Alpine Bioanalytics,DMY012,Biotechnology,16.80,24.00,28.00,16.50,5.0,83,Early-stage diagnostics candidate
+Redwood Logistics Technology,DMY013,Logistics Technology,72.00,78.00,84.00,69.00,3.0,70,Supply-chain software candidate

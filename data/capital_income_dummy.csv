@@ -1,0 +1,5 @@
+income_date,source_name,income_type,country_code,gross_income_eur,foreign_withholding_eur,domestic_withholding_eur
+2025-03-31,Aster Example Cash,Interest,DE,15.20,0.00,0.00
+2025-06-30,Blueleaf Example Savings,Interest,LV,22.00,1.10,0.00
+2025-09-30,Northstar Dividend Basket,Dividend,IE,18.00,0.00,3.42
+2025-12-15,Example Global Holdings,Dividend,US,12.50,1.88,0.00

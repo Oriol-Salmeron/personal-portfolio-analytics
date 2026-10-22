@@ -1,0 +1,13 @@
+transaction_date,transaction_type,asset,ticker,quantity,unit_price_eur,fees_eur
+2025-01-10,BUY,Northstar Dividend Basket,DMY001,10.0,20.00,1.00
+2025-02-01,BUY,Bluehaven Payment Systems,DMY004,10.0,50.00,1.00
+2025-03-10,BUY,Vertex Semiconductor Tools,DMY003,6.0,30.00,1.00
+2025-04-01,BUY,Nimbus Enterprise Software,DMY002,4.0,70.00,1.00
+2025-05-10,BUY,Northstar Dividend Basket,DMY001,5.0,22.00,1.00
+2025-06-01,BUY,Cedarline Health Devices,DMY005,12.0,25.00,1.00
+2025-07-01,SELL,Bluehaven Payment Systems,DMY004,4.0,45.00,1.00
+2025-08-20,BUY,Vertex Semiconductor Tools,DMY003,4.0,33.00,1.00
+2025-09-12,SELL,Northstar Dividend Basket,DMY001,8.0,26.00,2.00
+2025-10-05,SELL,Vertex Semiconductor Tools,DMY003,5.0,35.00,1.50
+2025-11-04,SELL,Nimbus Enterprise Software,DMY002,1.5,84.00,1.00
+2025-12-02,SELL,Cedarline Health Devices,DMY005,5.0,30.00,1.50
