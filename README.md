@@ -2,7 +2,7 @@
 
 **Interactive finance analytics built with Python, Pandas, Streamlit and Plotly.**
 
-[**🚀 Open the live app**](https://personal-portfolio-analytics.streamlit.app/) · [**💻 Explore the source code**](https://github.com/Oriol-Salmeron/personal-portfolio-analytics)
+[**Open the live app**](https://personal-portfolio-analytics.streamlit.app/) · [**Explore the source code**](https://github.com/Oriol-Salmeron/personal-portfolio-analytics)
 
 A web-based dashboard demonstrating portfolio monitoring, Core–Satellite allocation, a rule-based market radar, Smart DCA contribution routing, cash-flow budgeting, savings and liquidity planning, net-worth projections, and FIFO transaction matching.
 
