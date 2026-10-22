@@ -18,9 +18,7 @@ You do not need to install Python or upload a file to explore the demo.
 
 **Important:** the app does not use live prices, connect to a broker, execute trades, or provide financial or tax advice. Do not upload personal financial information to the public app. The tax and foreign-balance views are illustrative demonstrations, not a Spanish tax calculator.
 
-## Quick start (for developers)
-
-To run the app locally, follow the installation instructions below.
+For local installation, see [Installation and local usage](#installation-and-local-usage).
 
 ## Project goals
 
