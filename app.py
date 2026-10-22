@@ -447,11 +447,44 @@ def render_app() -> None:
         "cash-flow planning, savings projections and tax-record demonstrations."
     )
 
+    st.info(
+        "**Demo mode:** the included figures are fictional examples, not live market data. "
+        "You can explore the dashboard immediately without uploading anything."
+    )
+    with st.expander("How to use this app — quick start", expanded=False):
+        st.markdown(
+            """
+            **1. Start with the sample data.** The app loads fictional holdings, cash accounts,
+            market-radar assumptions and transaction records automatically.
+
+            **2. Explore the six sections.**
+            - **Executive Dashboard:** demo net worth, portfolio mix and a 12-month scenario.
+            - **Holdings & Strategy:** position performance, Core–Satellite allocation and Smart DCA.
+            - **Market Radar:** static sample prices, target-price assumptions and screening rules.
+            - **Income & Liquidity:** monthly budget, available cash and emergency-fund coverage.
+            - **Savings Projection:** savings history and alternative projection assumptions.
+            - **Tax & Reporting:** illustrative FIFO-matched sales, investment income and withholding.
+
+            **3. Test a budget scenario.** In the sidebar, open **Customize income & allocation**.
+            The income and percentage splits feed the dashboard and simulations; the four percentages
+            should add up to 100%.
+
+            **4. Upload holdings only if needed.** Use a CSV with the same columns as
+            `data/posiciones_dummy.csv`. This replaces the holdings dataset only; the other sections
+            continue using fictional example data.
+
+            **5. Treat all outputs as demonstrations.** There is no broker connection or live market feed.
+            Risk scores, target prices, projections and tax calculations are not recommendations or advice.
+            """
+        )
+
     try:
         data = load_supporting_data()
         with st.sidebar:
-            st.markdown("### Portfolio controls")
-            st.caption("Bundled account, cash-flow, radar and tax records are all fictional.")
+            st.markdown("### Getting started")
+            st.caption(
+                "Explore the sample data first. Account balances, radar inputs and tax records are fictional."
+            )
             uploaded = st.file_uploader(
                 "Upload a positions CSV (optional)",
                 type=["csv"],
@@ -461,19 +494,21 @@ def render_app() -> None:
                 ),
             )
             positions_source = uploaded.getvalue() if uploaded is not None else None
-            gross_income = st.number_input(
-                "Monthly gross income (€)", min_value=0.0,
-                value=float(data["rules"]["monthly_gross_income_eur"]), step=50.0,
-            )
-            withholding_pct = st.slider(
-                "Illustrative payroll withholding (%)", 0, 45,
-                int(round(float(data["rules"]["withholding_rate"]) * 100)),
-            )
-            st.markdown("**Monthly net-income allocation**")
-            expense_share_pct = st.slider("Living expenses (%)", 0, 100, int(round(float(data["rules"]["expense_share"]) * 100)), 5)
-            savings_share_pct = st.slider("Savings (%)", 0, 100, int(round(float(data["rules"]["savings_share"]) * 100)), 5)
-            investment_share_pct = st.slider("Investment / Smart DCA (%)", 0, 100, int(round(float(data["rules"]["investment_share"]) * 100)), 5)
-            opportunity_share_pct = st.slider("Opportunity reserve (%)", 0, 100, int(round(float(data["rules"]["opportunity_share"]) * 100)), 5)
+            with st.expander("Customize income & allocation (optional)", expanded=False):
+                st.caption("Change these assumptions to test a scenario. Allocation percentages should total 100%.")
+                gross_income = st.number_input(
+                    "Monthly gross income (€)", min_value=0.0,
+                    value=float(data["rules"]["monthly_gross_income_eur"]), step=50.0,
+                )
+                withholding_pct = st.slider(
+                    "Illustrative payroll withholding (%)", 0, 45,
+                    int(round(float(data["rules"]["withholding_rate"]) * 100)),
+                )
+                st.markdown("**Monthly net-income allocation**")
+                expense_share_pct = st.slider("Living expenses (%)", 0, 100, int(round(float(data["rules"]["expense_share"]) * 100)), 5)
+                savings_share_pct = st.slider("Savings (%)", 0, 100, int(round(float(data["rules"]["savings_share"]) * 100)), 5)
+                investment_share_pct = st.slider("Investment / Smart DCA (%)", 0, 100, int(round(float(data["rules"]["investment_share"]) * 100)), 5)
+                opportunity_share_pct = st.slider("Opportunity reserve (%)", 0, 100, int(round(float(data["rules"]["opportunity_share"]) * 100)), 5)
 
         positions_raw = load_positions(positions_source)
         positions = calculate_positions(positions_raw, data["rules"])
