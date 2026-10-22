@@ -4,6 +4,24 @@ An interactive personal-finance and investment-analytics application built with 
 
 > **Privacy by design:** all data committed to this repository is invented. The original workbook's holdings, balances, salary figures, transaction history and tax-related records are not included. Use only synthetic or otherwise safely anonymized data in public deployments.
 
+## Quick start (for app visitors)
+
+**Try the live dashboard:** [Open Personal Portfolio Analytics](https://personal-portfolio-analytics.streamlit.app/)
+
+You do not need to install Python or upload a file to explore the demo.
+
+1. **Start on Executive Dashboard** to see the example portfolio, cash and savings overview, and 12-month scenario.
+2. **Use the tabs from left to right** to explore holdings and strategy, the market radar, income/liquidity, savings projections, and tax-record examples.
+3. **Try the optional controls** in the sidebar under *Customize income & allocation* to change the monthly budget assumptions. The four allocation percentages should total 100%.
+4. **Keep the example data in place** for a first tour. It is fictional and is used to demonstrate calculations, not current market conditions.
+5. **Optional CSV upload:** the uploader accepts a holdings file using the same schema as `data/posiciones_dummy.csv`. Uploading changes holdings-related calculations only; the other sections continue using bundled fictional data.
+
+**Important:** the app does not use live prices, connect to a broker, execute trades, or provide financial or tax advice. Do not upload personal financial information to the public app. The tax and foreign-balance views are illustrative demonstrations, not a Spanish tax calculator.
+
+## Quick start (for developers)
+
+To run the app locally, follow the installation instructions below.
+
 ## Project goals
 
 The project demonstrates a complete analytics workflow rather than a static spreadsheet export:
