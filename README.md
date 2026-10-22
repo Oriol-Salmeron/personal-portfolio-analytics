@@ -1,6 +1,10 @@
 # Personal Portfolio Analytics Dashboard
 
-An interactive personal-finance and investment-analytics application built with **Python, Pandas, Streamlit and Plotly**. It recreates the main analytical workflows of a multi-sheet wealth-management workbook: portfolio monitoring, Core–Satellite allocation, an investment radar, Smart DCA contribution routing, cash-flow budgeting, savings and liquidity planning, net-worth projections, and a FIFO-based tax-record demonstration.
+**Interactive finance analytics built with Python, Pandas, Streamlit and Plotly.**
+
+[**🚀 Open the live app**](https://personal-portfolio-analytics.streamlit.app/) · [**💻 Explore the source code**](https://github.com/Oriol-Salmeron/personal-portfolio-analytics)
+
+A web-based dashboard demonstrating portfolio monitoring, Core–Satellite allocation, a rule-based market radar, Smart DCA contribution routing, cash-flow budgeting, savings and liquidity planning, net-worth projections, and FIFO transaction matching.
 
 > **Privacy by design:** all data committed to this repository is invented. The original workbook's holdings, balances, salary figures, transaction history and tax-related records are not included. Use only synthetic or otherwise safely anonymized data in public deployments.
 
